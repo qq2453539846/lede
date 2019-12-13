@@ -14,8 +14,8 @@ on:
     branches: 
       - master
   schedule:
-    - cron: 
-   release:
+    - cron: 0
+   release: 
      types: [published]
 
 jobs:
